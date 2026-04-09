@@ -2680,6 +2680,10 @@ figure {
     max-width: 100%;
   }
 
+  .text.align-right {
+    position: relative;
+  }
+
   .wrapper-link {
     justify-content: center;
     align-items: flex-start;
@@ -3838,4 +3842,9 @@ figure {
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+}
+/* Fix hero card layering above ORA logo */
+.container-hero {
+  position: relative;
+  z-index: 1;
 }
